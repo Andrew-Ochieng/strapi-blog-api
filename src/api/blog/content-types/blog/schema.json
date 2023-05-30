@@ -39,6 +39,15 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::comment.comment"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Web Dev",
+        "Graphics Design",
+        "UI/UX Design",
+        "Dev Ops"
+      ]
     }
   }
 }
